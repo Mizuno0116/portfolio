@@ -4,7 +4,7 @@ import { ExternalLink } from 'lucide-react';
 const Projects = () => (
   <motion.section
     className="relative flex-grow px-4 pt-20 pb-16 text-center text-white bg-center bg-no-repeat bg-cover"
-    style={{ backgroundImage: `url('/images/project.jpg')` }}
+    style={{ backgroundImage: `url('/portfolio/images/project.jpg')` }}
     initial={{ opacity: 0, y: 20 }}
     animate={{ opacity: 1, y: 0 }}
     exit={{ opacity: 0, y: -20 }}
@@ -22,19 +22,19 @@ const Projects = () => (
           {
             title: 'React + Tailwind Portfolio',
             desc: 'A modern developer portfolio built with React and Tailwind CSS.',
-            image: '/images/project1.png',
+            image: '/portfolio/images/project1.png',
             live: 'https://react-tailwindcss-portfolio.netlify.app',
           },
           {
             title: 'Spree Commerce Storefront',
             desc: 'Open-source headless e-commerce storefront built with Rails.',
-            image: '/images/project2.png',
+            image: '/portfolio/images/project2.png',
             live: 'https://demo.spreecommerce.org/',
           },
           {
             title: 'GitHub Finder – React App',
             desc: 'Search and view GitHub user profiles using the GitHub API.',
-            image: '/images/project3.png', // Make sure this image exists
+            image: '/portfolio/images/project3.png', // Make sure this image exists
             live: 'https://github-find-user.vercel.app/',
           },
         ].map((project, index) => (
