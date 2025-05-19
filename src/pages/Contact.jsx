@@ -9,7 +9,7 @@ const Contact = () => {
   return (
     <motion.section
       className="relative flex-grow px-4 pt-24 pb-20 text-white bg-center bg-no-repeat bg-cover"
-      style={{ backgroundImage: `url('/images/contact.jpg')` }}
+      style={{ backgroundImage: `url('/portfolio/images/contact.jpg')` }}
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: -20 }}
