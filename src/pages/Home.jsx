@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 const Home = () => (
   <motion.section
     className="flex-grow px-4 pt-20 text-center text-white bg-center bg-no-repeat bg-cover"
-    style={{ backgroundImage: `url('/images/background.jpg')` }}
+    style={{ backgroundImage: `url('/portfolio/images/background.jpg')` }}
     initial={{ opacity: 0, y: 20 }}
     animate={{ opacity: 1, y: 0 }}
     exit={{ opacity: 0, y: -20 }}
